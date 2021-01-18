@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: lightgray;
+  height: 100%;
+}
+
+
+.app_header{
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 3px solid lightgray;
+}
+.post_header{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.post_avatar{
+  margin-right: 5px;
+}
+.post_text{
+  font-weight: normal;
+  padding: 10px;
+}
+.post_image{
+  width: 100%;
+  object-fit: contain;
+}
+.post{
+  max-width: 500px;
+  background-color: white;
+  border: 1px solid grey;
+}
